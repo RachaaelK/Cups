@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context="sg.com.kaplan.cups.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@android:color/darker_gray"
+        android:text="NoBody Will Save You..HeHeHe"
+        android:textColor="@android:color/white" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="@drawable/background3"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="46dp"
+        android:id="@+id/gifImageView"
+        android:layout_marginTop="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/flee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flee"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="359dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/gifImageView"
+        android:layout_alignStart="@+id/gifImageView" />
+
+    <Button
+        android:id="@+id/idareu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/flee"
+        android:layout_alignBottom="@+id/flee"
+        android:layout_alignEnd="@+id/gifImageView"
+        android:background="@android:color/holo_red_light"
+        android:text="I Dare U"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>
